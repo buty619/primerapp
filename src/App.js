@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div>
         <h1>{this.state.number}</h1>
-        <button onClick={this.addOne.bind(this)}>Add One</button>
+        <button onClick={this.addOne.bind(this)}>Incrementa</button>
       </div>
     );
   }
